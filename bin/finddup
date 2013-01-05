@@ -1,0 +1,5 @@
+#!ruby
+Signal.trap 'INT' do
+  exit
+end
+require_relative '../lib/finddup.rb'
